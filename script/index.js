@@ -207,7 +207,7 @@ const generateCode = () => {
     offersContainer = 
     `
     .offers-container {
-      width: 100%
+      width: 100%;
       height: 300px;
       left: 0px;
       bottom: 0px;      
@@ -313,7 +313,7 @@ const generateCode = () => {
     offerInfo = 
     `
     .offer-info {
-      width: 100%
+      width: 100%;
       height: 300px;
       left: 0px;
       bottom: 0px;      
@@ -378,7 +378,7 @@ const generateCode = () => {
       left: 0;
       top: 100px;
       width: 100%;
-      height: 100%
+      height: 100%;
       .video-button {
         width: 100px;
         height: 20px;
@@ -396,7 +396,7 @@ const generateCode = () => {
       left: 0;
       top: 100px;
       width: 100%;
-      height: 100%
+      height: 100%;
       .video-button {
         width: 100px;
         height: 20px;

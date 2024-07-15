@@ -13,9 +13,16 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-color: #131313;
+  color: #FFF;
+  padding: 30px 10px;
   h1 {
     margin: 20px 0 0 0;
     font-size: 70px;
+    span {
+      font-size: 70px;
+      color: #ED4136;
+    }
   }
   span {
     text-transform: uppercase;
@@ -34,7 +41,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
   &--element {
     text-align: center;
     display: flex;
@@ -237,3 +243,178 @@ body {
 
 
 
+// 
+
+
+
+  
+body {
+  font-family: "rubik", sans-serif;
+}
+
+
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b300x600 {
+.logo {
+  width: 100%;
+  height: 60px;
+  left: 0;
+  top: 0;
+  &__image {
+    width: 100%
+  }
+}
+
+.video-container {
+  left: 0;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+  .video-button {
+    width: 100px;
+    height: 20px;
+    left: 50px;
+    top: 150px;
+    font-size: 15px;
+  }
+  .audio {
+    width: 40px;
+    height: 40px;
+  }
+}
+    
+
+.offers-container {
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  bottom: 0px;      
+
+  .offers-wrapper {
+    padding: 0 0 !important;
+    gap: 0 0 !important;
+
+    .offer {
+      .image {
+        width: 100%;
+        height: 50px;
+        left: 0;
+        top: 0;
+      }
+      
+      
+      .name {
+        left: 10px;
+        top: 100px;
+        font-size: 15px;
+        width: 130px;
+      }
+    
+      
+      .price-wrapper {
+        left: 10px;
+        top: 130px;
+        font-size: 15px;
+        .oldprice {
+          font-size: 15px;
+          margin: 0 10px 0 0;
+        }
+      }
+    
+      
+      .button {
+        width: 100px;
+        height: 35px;
+        left: 10px;
+        top: 160px;
+        font-size: 13px;
+      }
+    
+      
+        .custom-property--NAZWA {
+          left: 10px;
+          top: 140px;
+          font-size: 13px;
+        }
+      
+    }
+  }
+} 
+
+
+.offer-info {
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  bottom: 0px;      
+  
+    .name {
+      left: 10px;
+      top: 100px;
+      font-size: 15px;
+      width: 130px;
+    }
+    
+  
+    .price-wrapper {
+      left: 10px;
+      top: 130px;
+      font-size: 15px;
+      .oldprice {
+        font-size: 15px;
+        margin: 0 10px 0 0;
+      }
+    }
+    
+  
+    .button {
+      width: 100px;
+      height: 35px;
+      left: 10px;
+      top: 160px;
+      font-size: 13px;
+    }
+    
+  
+      .custom-property--inna-nazwa {
+        left: 10px;
+        top: 140px;
+        font-size: 13px;
+      }
+      
+} 
+
+
+.arrow {
+  width: 40px !important;
+  height: 40px !important;
+  transform: translateY(0) !important;
+  top: 400px;
+  svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
+#arrowPrev {
+  left: 20px !important;
+}
+#arrowNext {
+  right: 20px !important;
+}
+    
+.dots {
+  width: 70px;
+  bottom: 10px;
+  .dot {
+    width: 8px !important;
+    height: 8px !important;
+  }
+}
+    
+}  
