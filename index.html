@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RTB House Base creator</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style/index.css">
+  <script src="https://kit.fontawesome.com/786fc2d0ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>RTB HOUSE</h1>
+    <span>base scss creator</span>
+    <sup>Designed by Bartłomiej Mach</sup>
+  </header>
+
+  <main class="main">
+
+    <div class="main--element sizes">
+      <span>
+        What sizes do You use?
+      </span>
+      <div class="smart-check">
+        <button data-check="popular">3 Popular sizes</button>
+        <button data-check="all">All sizes</button>
+        <button data-check="deselect">deslect all</button>
+      </div>
+      <div class="grid-box">
+        <div class="checkbox">
+          <input class="popular" type="checkbox" name="b300x600" id="b300x600">
+          <label for="b300x600">300x600</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="b160x600" id="b160x600">
+          <label for="b160x600">160x600</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="b320x480" id="b320x480">
+          <label for="b320x480">320x480</label>
+        </div>
+        <div class="checkbox">
+          <input class="popular" type="checkbox" name="b336x280" id="b336x280">
+          <label for="b336x280">336x280</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="b300x250" id="b300x250">
+          <label for="b300x250">300x250</label>
+        </div>
+        <div class="checkbox">
+          <input class="popular" type="checkbox" name="b970x250" id="b970x250">
+          <label for="b970x250">970x250</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="b970x90" id="b970x90">
+          <label for="b970x90">970x90</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="b720x90" id="b720x90">
+          <label for="b720x90">720x90</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="b320x100" id="b320x100">
+          <label for="b320x100">320x100</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="b320x50" id="b320x50">
+          <label for="b320x50">320x50</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="main--element font">
+      <span>
+        What font do You use (example: Rubik)
+      </span>
+      <input type="text" name="font-name" placeholder="Rubik">
+    </div>
+
+    <div class="main--element preview">
+      <span>
+        What is Your path of preview? (example: mock/__BANNER.WIDTH__x__BANNER.HEIGHT__.png);
+      </span>
+      <input type="text" name="font-name" value="mock/__BANNER.WIDTH__x__BANNER.HEIGHT__.png" placeholder="mock/__BANNER.WIDTH__x__BANNER.HEIGHT__.png">
+    </div>
+
+    <div class="main--element banner-bg">
+      <span>
+        Do You use banner background Image?
+        <br> If Yes please write the path (example: bg/__BANNER.WIDTH__x__BANNER.HEIGHT__.png);
+      </span>
+      <input type="text" name="font-name" placeholder="bg/__BANNER.WIDTH__x__BANNER.HEIGHT__.png">
+    </div>
+
+    <div class="main--element offers-container">
+      <span>Sellect what You use in <i>OFFERS-CONTAINER</i></span>
+
+      <div class="grid-box">
+        <div class="checkbox">
+          <input type="checkbox" name="nameC" id="nameC">
+          <label for="nameC"><span>NAME</span></label>
+        </div>
+        <div class="checkbox ">
+          <input type="checkbox" name="priceC" id="priceC">
+          <label for="priceC"><span>PRICE</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="oldpriceC" id="oldpriceC">
+          <label for="oldpriceC"><span>OLDPRICE</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="buttonC" id="buttonC">
+          <label for="buttonC"><span>BUTTON</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="customC" id="customC">
+          <label for="customC"><span>CUSTOM PROP</span></label>
+          <input type="text" placeholder="NAME OF CP" id="customNameC">
+        </div>
+      </div>
+    </div>
+
+    <div class="main--element offer-info">
+      <span>Sellect what You use in <i>OFFER INFO</i></span>
+
+      <div class="grid-box">
+        <div class="checkbox">
+          <input type="checkbox" name="name" id="name">
+          <label for="name"><span>NAME</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="price" id="price">
+          <label for="price"><span>PRICE</span></label>
+        </div>
+        <div class="checkbox"> 
+          <input type="checkbox" name="oldprice" id="oldprice">
+          <label for="oldprice"><span>OLDPRICE</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="button" id="button">
+          <label for="button"><span>BUTTON</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="custom" id="custom">
+          <label for="custom"><span>CUSTOM PROP</span></label>
+          <input type="text" placeholder="NAME OF CP" id="customName">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="main--element video">
+      <span>Sellect what You use</span>
+      <div class="grid-box">
+        <div class="checkbox">
+          <input type="checkbox" name="video" id="video">
+          <label for="video"><span>VIDEO</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="videoAudio" id="videoAudio">
+          <label for="videoAudio"><span>VIDEO AUDIO</span></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="main--element arrows-dots">
+      <span>Sellect what You use</span>
+      <div class="grid-box">
+        <div class="checkbox">
+          <input type="checkbox" name="arrows" id="arrows">
+          <label for="arrows"><span>ARROWS</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="dots" id="dots">
+          <label for="dots"><span>DOTS</span></label>
+        </div>
+      </div>
+    </div>
+
+
+    <a href="#footer" class="generate-code">
+      <span>Generate code</span>
+    </a>
+
+  </main>
+
+  <footer class="footer" id="footer">
+    <button class="copy-code disabled" disabled>
+      copy code
+      <i class="fa-solid fa-copy"></i>
+    </button>
+    <div class="popup">
+      <span>
+        YOUR SCSS CODE IS COPIED 😎
+      </span>
+    </div>
+    <div class="footer--code">
+    </div>
+  </footer>
+
+
+  <script src="./script/index.js"></script>
+
+</body>
+</html>
